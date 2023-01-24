@@ -21,7 +21,7 @@
 
 /* Настройки */
 #define SK6805_LED_COUNT 3 //Количество светодиодов на плате подсветки
-#define SK6805_LED_PIN &led_pin //Порт подключения светодиодов
+#define SK6805_LED_PIN &gpio_ext_pa7 //Порт подключения светодиодов
 
 #ifdef FURI_DEBUG
 #define DEBUG_PIN &gpio_ext_pa7
