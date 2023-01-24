@@ -35,7 +35,7 @@
 #define DEBUG_SET_LOW()
 #endif
 
-static const GpioPin led_pin = {.port = GPIOA, .pin = LL_GPIO_PIN_8};
+// static const GpioPin led_pin = {.port = GPIOA, .pin = LL_GPIO_PIN_8};
 static uint8_t led_buffer[SK6805_LED_COUNT][3];
 
 void SK6805_init(void) {
